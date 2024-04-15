@@ -1,5 +1,6 @@
-package Basic;
+package pages;
 
+import Basic.AppiumTestBase;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
@@ -24,6 +25,7 @@ public class Common extends AppiumTestBase {
 
         } else
             element = getElementByText(text);
+        System.out.println("verticalToElementWithText:" + text);
         return element;
     }
 
@@ -50,20 +52,14 @@ public class Common extends AppiumTestBase {
 
     public void clickElementByID(String id) {
         getElementByXpath("//*[@resource-id='" + prefix_ID + id + "']").click();
+        System.out.println("Click by id:" + id);
+        waitAbit(500);
     }
 
     public void verifyPageLoaded(String pageLoader) {
         boolean checkPageLoader = false;
-        String[] pageLoaders = pageLoader.split(">");
-        String xPathHeaderPage = "//*[@resource-id='" + prefix_ID + "toolbar']//*[@class='android.widget.TextView']";
-        WebElement elmHeaderpage = driver.findElement(By.xpath(xPathHeaderPage));
-        String headerText = elmHeaderpage.getText();
-        for (String s : pageLoaders)
-            if (headerText.equals(s)) {
-                checkPageLoader = true;
-                break;
-            }
-        Assert.assertTrue(checkPageLoader);
+        String xPathHeaderPage = "//*[(@resource-id='" + prefix_ID + "toolbar') or (@resource-id='" + prefix_ID + "title_recycler_view')]//*[@class='android.widget.TextView' and @text='" + pageLoader + "']";
+        Assert.assertTrue(getElementByXpath(xPathHeaderPage) != null);
     }
 
     public void inputValueById(String id, String value) {
@@ -93,7 +89,6 @@ public class Common extends AppiumTestBase {
         for (String s : texts) {
             isPresent = driver.findElements(By.xpath("//*[contains(@text,'" + s + "')]")).isEmpty();
             if (!isPresent) {
-                System.out.println(s);
                 break;
             }
         }
@@ -112,6 +107,19 @@ public class Common extends AppiumTestBase {
         }
 
     }
+
+    public int countElementByText(String text) {
+        return driver.findElements(By.xpath("//*[contains(@text,'" + text + "')]")).size();
+    }
+
+    public int countElementById(String id) {
+        return driver.findElements(By.xpath("//*[@resource-id='" + prefix_ID + id + "']")).size();
+    }
+
+    public WebElement getElementByID(String id) {
+        return driver.findElement(By.xpath("//*[@resource-id='" + prefix_ID + id + "']"));
+    }
+
 
     public void dragAndDrop(WebElement element) {
         TouchAction touchAction = new TouchAction(driver);

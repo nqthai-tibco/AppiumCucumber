@@ -1,8 +1,8 @@
 package Basic;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
 import org.junit.Test;
+import pages.Common;
 
 import java.net.MalformedURLException;
 import java.util.Set;

@@ -12,7 +12,6 @@ public class LoginDefs {
 
     @And("I login with accounts have information in the table below")
     public void iLoginWithAccountsHaveInformationInTheTableBelow(DataTable dataTable) {
-        System.out.println("check");
         List<Map<String, String>> rows = dataTable.asMaps(String.class, String.class);
         loginStep.accessSignInSignUp();
         for (Map<String, String> columns : rows) {

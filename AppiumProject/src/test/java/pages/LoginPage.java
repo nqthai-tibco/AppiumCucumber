@@ -1,6 +1,5 @@
 package pages;
 
-import Basic.Common;
 import com.google.common.base.Strings;
 import org.junit.Assert;
 
@@ -25,9 +24,7 @@ public class LoginPage extends Common {
         }
     }
 
-    public void accessSignInSignUp() {
-        clickElementByText("Sign in/Sign up by email");
-    }
+
 
 
     public void inputInformationRegister(String email, String password, String name, String lastName, String gender) {

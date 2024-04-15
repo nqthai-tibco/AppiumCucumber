@@ -1,6 +1,6 @@
 package Basic.Utils;
 
-import Basic.Common;
+import pages.Common;
 
 import java.io.*;
 import java.util.Scanner;
