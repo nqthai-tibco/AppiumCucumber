@@ -13,7 +13,7 @@ public class TestAuto {
 
     @Test
     public void getColor() throws MalformedURLException {
-        AppiumTestBase.setup();
+//        AppiumTestBase.setup();
 //        common.getElementByXpath("//android.widget.FrameLayout[@content-desc='Search']").click();
         common.waitAbit(4000);
         Set<String> contextNames = AppiumTestBase.driver.getContextHandles();

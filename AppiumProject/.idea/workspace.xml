@@ -4,34 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49415827-681e-458d-a91d-8b9f21c2b06a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/defs/FirstDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/defs/WorkoutDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FirstPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WorkoutsPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/FirstPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/WorkoutsSteps.java" afterDir="false" />
+    <list default="true" id="49415827-681e-458d-a91d-8b9f21c2b06a" name="Default Changelist" comment="Basic Appium">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Basic/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/defs/TestThreadRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/App/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Basic/AppiumTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basic/AppiumTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basic/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Basic/TestAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basic/TestAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basic/Utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basic/Utils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/defs/LoginDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/defs/LoginDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/defs/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/widget/LoginContentWidget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Testcase02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testcase02.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testcase01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testcase01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/defs/FirstDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/defs/LoginDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/defs/WorkoutDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FirstPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/WorkoutsSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Basic/AppiumTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic/AppiumTestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Basic/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Basic/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic/Common.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Basic/TestAuto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic/TestAuto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Basic/Utils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Basic/Utils/FileUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Testcase02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Testcase02.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/defs/LoginDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/defs/LoginDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/defs/LoginDefs.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/defs/MyStepdefs.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcase01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase01.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/widget/LoginContentWidget.class" beforeDir="false" />
     </list>
@@ -50,13 +45,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\ideaIC-2020.2.win\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2euFokCOTOYl5IEEWMJ0BCN5Nl5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,7 +53,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/App" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,8 +64,24 @@
       <recent name="pages" />
       <recent name="steps" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AppiumCucumber\AppiumProject\src\test\resources\App" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Testcase02">
+  <component name="RunManager" selected="Application.TestThreadRunnable">
+    <configuration name="TestThreadRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="defs.TestThreadRunnable" />
+      <module name="AppiumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="defs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Testcase02" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Testcase02.feature" />
@@ -85,6 +90,25 @@
       <module name="cucumber-starter" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Testcase02" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: testcase01 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/testcase01.feature" />
+      <option name="GLUE" value="defs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AppiumProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: testcase01" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,53 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: testcase03" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/testcase01.feature" />
-      <option name="GLUE" value="defs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumber-starter" />
-      <option name="NAME_FILTER" value="^testcase03$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^testcase03$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: testcase03" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/testcase01.feature" />
-      <option name="GLUE" value="defs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumber-starter" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestThreadRunnable" />
+        <item itemvalue="Cucumber Java.Feature: testcase01 (1)" />
         <item itemvalue="Cucumber Java.Feature: Testcase02" />
         <item itemvalue="Cucumber Java.Scenario: testcase02" />
         <item itemvalue="Cucumber Java.Feature: testcase01" />
-        <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="Cucumber Java.Scenario: testcase03" />
       </list>
     </recent_temporary>
   </component>
@@ -204,75 +188,21 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Appium" />
     <option name="LAST_COMMIT_MESSAGE" value="Basic Appium" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2360" y="94" key="#Project_Structure" timestamp="1712799374937">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2360" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712799374937" />
-    <state x="2610" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1712802731235">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2610" y="295" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712802731235" />
-    <state x="2481" y="106" key="CommitChangelistDialog2" timestamp="1712746805796">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2481" y="106" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712746805796" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1712919570159">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712919570159" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1712919570158">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712919570158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1712919570158">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712919570158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1712919570159">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712919570159" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1712823991594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712823991594" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1712823991594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712823991594" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1712823991594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712823991594" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1712823991594">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712823991594" />
-    <state x="2360" y="94" key="SettingsEditor" timestamp="1712799437296">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712799437296" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1712746831324">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712746831324" />
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1712823092690">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712823092690" />
-    <state x="2623" y="441" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1712802236299">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2623" y="441" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712802236299" />
-    <state x="2536" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1712799553482">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1712799553482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -286,6 +216,26 @@
           <url>file://$PROJECT_DIR$/src/test/java/pages/WorkoutsPages.java</url>
           <line>42</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Basic/AppiumTestBase.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/defs/StartStopDefs.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

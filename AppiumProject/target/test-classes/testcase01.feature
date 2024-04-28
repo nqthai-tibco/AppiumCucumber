@@ -9,7 +9,8 @@ Feature: Testcase01
       |          |          | Message box  | Please enter email. Please enter password. |
       | Test     | test1234 | Message box  | Please check your email spelling.          |
       | Test@aaa | test1234 | Toast        | Invalid user account data                  |
-
+      And  I stop app android
+    Scenario: testcase01
     And I register accounts with information in the table below
       | Email    | Password | Name | Last name | Gender | Display type | Content                                                                       |
       | Test@aaa | test1234 | Test | Tester    |        | Message box  | Please select gender.                                                         |
